@@ -36,7 +36,10 @@ case 2:
          }
     }
     catch (NumberFormatException e){
+    
     System.out.println("Error:Invalid input.you must a neumarical value.");
+      System.out.println("Exception details:" +e);
+      System.out.println("Reason:"+ e.getMessage());
     }
   }
   
